@@ -40,7 +40,8 @@ end
 
 def reduce_to_total(source_array)
   source_array = [1, 2, 3]
-    
+  
+  source_array.reduce(0) { |sum, number|  sum + number }
   end
   return new
 end
