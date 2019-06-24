@@ -69,5 +69,11 @@ def reduce_to_any_true(source_array)
   reduce_to_any_true = source_array.reduce { |truthy| total = true}
 end
 
+def reduce_to_any_false(source_array)
+  source_array = [false, nil, nil, nil, true]
+  
+  reduce_to_any_false = source_array.reduce { |falsey| total = false}
+end
+
 
 
