@@ -40,6 +40,7 @@ end
 
 def reduce_to_total(source_array)
   source_array = [1, 2, 3]
+    
   end
   return new
 end
