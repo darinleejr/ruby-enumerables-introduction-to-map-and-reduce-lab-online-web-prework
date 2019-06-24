@@ -52,9 +52,9 @@ def reduce_to_total(source_array, starting_point)
 end
 
 def reduce_to_all_true(source_array)
-  source_array [1, 2, true, "razmatazz"]
+  source_array = [1, 2, true, "razmatazz"]
   
-  reduce_to_all_true = source_array.reduce { |sum, razmatazz| sum + razmatazz }
+  reduce_to_all_true = source_array.reduce { |true, razmatazz| sum + razmatazz }
 end
 
 
