@@ -39,11 +39,7 @@ def map_to_square(source_array)
 end
 
 def reduce_to_total(source_array)
-  source_array = []
-  i = 0
-  while i < source_array do
-    source_array.inject(0){|sum, i| sum + i }
-    i += 1 
+  source_array = [1, 2, 3]
   end
   return new
 end
