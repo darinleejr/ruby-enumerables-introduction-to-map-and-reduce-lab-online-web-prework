@@ -60,6 +60,8 @@ end
 def reduce_to_all_true(source_array)
   source_array = [1, 2, true, "razmatazz", false]
   
+  total = false
+  
   reduce_to_all_true = source_array.reduce { |n| total = n}
 end
 
