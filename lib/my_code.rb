@@ -44,11 +44,11 @@ def reduce_to_total(source_array)
   reduce_to_total = source_array.reduce(0) { |sum, number|  sum + number }
 end
 
-def reduce_to_total(source_array, starting_point)
+def reduce_to_total2(source_array, starting_point)
   source_array = [1, 2, 3]
   starting_point = 100
   
-  reduce_to_total = source_array.reduce(100) { |sum, number| sum + number }
+  reduce_to_total2 = source_array.reduce(100) { |sum, number| sum + number }
 end
 
 
