@@ -51,8 +51,10 @@ def reduce_to_total2(source_array, starting_point)
   reduce_to_total2 = source_array.reduce(100) { |sum, number| sum + number }
 end
 
-reduce_to_all_true
-
+def reduce_to_all_true(source_array)
+  source_array [1, 2, true, "razmatazz"]
+  
+  reduce_to_all_true = source_array.reduce { ||
 
 
 
