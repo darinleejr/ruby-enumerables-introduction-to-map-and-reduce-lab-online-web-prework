@@ -62,7 +62,7 @@ def reduce_to_all_true(source_array)
   
   total = false
   
-  reduce_to_all_true = source_array.reduce { |false| total = false}
+  reduce_to_all_true = source_array.reduce { |falsey| total = false}
 end
 
 
